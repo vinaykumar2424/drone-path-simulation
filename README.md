@@ -40,7 +40,7 @@ This application can be used for:
 ### Installation
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/drone-path-simulation.git
+   git clone https://github.com/vinaykumar2424/drone-path-simulation.git
    cd drone-path-simulation
 2. **Install dependencies**
    npm install
