@@ -1,0 +1,72 @@
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.input-fields>p {
+    margin: 0;
+    color: #cdcdcd;
+}
+.input-fields>.interval-label{
+    margin-top: 1rem;
+}
+
+.input-fields>textarea {
+    width: calc(100% - 1rem);
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    resize: none;
+}
+
+.input-fields>.hidden-file-input {
+    display: none;
+}
+
+.input-fields>.file-upload-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+    height: 2rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+
+}
+
+.input-fields>.file-upload-wrapper>.file-upload-image {
+    width: auto;
+    height: 50%;
+}
+
+.input-fields>.interval-input {
+    cursor: pointer;
+    width: calc(100% - 1rem);
+    height: 2rem;
+    padding: 0 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    margin-bottom: 2rem;
+}
+
+.input-fields>button {
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 1rem 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}
+
+.input-fields>button:hover {
+    background-color: #e8e8e8;
+}

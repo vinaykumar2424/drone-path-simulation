@@ -1,0 +1,57 @@
+.drone-dropdown {
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.drone-dropdown > .selected-drone {
+  width: calc(100% - 1rem);
+  padding: 0.5rem;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.drone-dropdown > .drone-ids {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: calc(100% - 1rem);
+  position: absolute;
+  top: 100%;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 0.5rem;
+}
+
+.drone-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 1rem);
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.drone-item:hover {
+  background-color: #f1f1f1;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
